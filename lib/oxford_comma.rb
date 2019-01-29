@@ -6,5 +6,5 @@ def oxford_comma(array)
     return strlast
   end
   str_array=array.join (", ")
-  str_array << " and #{strlast}"
+  str_array << ", and #{strlast}"
 end
